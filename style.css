@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.bg-dblue {
+  background-color: #191136;
+}
+
+.bg-blue {
+  background-color: #281F4C;
+}
+
+.c-yellow {
+  color: #FFC527;
+}
+
+.c-orange {
+  color: #FFA927;
+}
+
+.c-grey {
+  color: #AAAAAA;
+}
+
+body {
+  font-family: Montserrat, sans-serif !important;
+  color: #fff !important;
+  cursor: default;
+}
+
+h1, h2, h3 {
+  font-family: "Anonymous Pro", sans-serif !important;
+}
+
+h1 {
+  font-size: 64px !important;
+}
+
+h2 {
+  font-size: 48px !important;
+}
+
+h3 {
+  font-size: 36px !important;
+}
+
+.fs-24, summary {
+  font-size: 24px !important;
+}
+
+a, .btn {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+a:hover, .btn:hover {
+  color: #FFC527 !important;
+}
+a:active, .btn:active {
+  color: #FFA927 !important;
+}
+
+.btn {
+  border-radius: 20px !important;
+  border: 0px !important;
+  padding: 8px 20px !important;
+}
+.bg-blue .btn {
+  box-shadow: 0px -4px 4px rgba(68, 58, 112, 0.5), 0px 4px 4px rgba(25, 17, 54, 0.5) !important;
+}
+.bg-blue .btn:active {
+  box-shadow: inset 0px -4px 4px rgba(68, 58, 112, 0.5), inset 0px 4px 4px rgba(25, 17, 54, 0.5) !important;
+}
+.bg-dblue .btn {
+  box-shadow: 0px -4px 4px rgba(40, 31, 76, 0.5), 0px 4px 4px rgba(10, 4, 29, 0.5) !important;
+}
+.bg-dblue .btn:active {
+  box-shadow: inset 0px -4px 4px rgba(40, 31, 76, 0.5), inset 0px 4px 4px rgba(10, 4, 29, 0.5) !important;
+}
+.stopwatch > .btn {
+  width: 90px !important;
+}
+.board-row > .btn {
+  width: 80px !important;
+  height: 80px !important;
+  padding: 11px 18px 11px 22px !important;
+  border-radius: 50% !important;
+}
+
+.board-row > .pressed {
+  box-shadow: inset 0px -4px 4px rgba(68, 58, 112, 0.5), inset 0px 4px 4px rgba(25, 17, 54, 0.5) !important;
+}
+
+.btn-arrow {
+  padding: 8px 10px !important;
+}
+
+.description {
+  height: 312px !important;
+}
